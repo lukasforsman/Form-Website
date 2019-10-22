@@ -1,0 +1,96 @@
+body {
+	background: blue;
+	font-family: 'Lato', sans-serif;
+	color: #666;
+	font-size: 16px;
+}
+h1 {
+	text-align: center;
+	color: black;
+	font: 310% 'UnifrakturMaguntia', cursive;
+	text-decoration: underline;
+	text-decoration-color: blue;
+}
+h3 {
+	text-align: center;
+	color: black;
+	font: 150% 'UnifrakturMaguntia', cursive;
+	text-decoration-color: blue;
+}
+.typewriter h1 {
+	overflow: hidden;
+	border-right: .15em solid transparent;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: 0em;
+	width: 470px;
+}
+legend {
+	text-align: left;
+	font-size: 22px;
+	font-weight: lighter;
+	color: #666;
+	border-bottom: 0px solid silver;
+}
+form {
+	width: 500px;
+	margin: 30px auto;
+	border: 1px white;
+	background: white;
+	padding: 25px;
+}
+input[type=text], input[type=number], input[type=email], input[type=password] {
+	outline: none;
+	padding: 3px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #1bcccc;
+	width: 100%;
+}
+textarea {
+	resize: none;
+	outline: none;
+	padding: 3px;
+	background: transparent;
+	border: 1px solid #1bcccc;
+	border-radius: 0em;
+	width: 100%;
+}
+fieldset {
+	border: 0px;
+}
+button {
+	width: 49.4%;
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 0em;
+}
+select {
+	outline: none;
+	background: transparent;
+	border: none;
+	font-size: 14px;
+	height: 29px;
+	padding: 5px;
+	width: 100%;
+	background-color: blue;
+	color: black;
+	text-align-last: center;
+}
+hr {
+	margin: 30px -25px 20px;
+	border: 0;
+	border-top: 1px solid #c9c7c7;
+}
+form {
+	position: relative;
+	margin: 50px auto;
+	padding: 25px 25px;
+	width: 500px;
+}

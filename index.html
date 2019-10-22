@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Formulär</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<form action="http://webshare.mah.se/tszagh/response.php" id="usrform" method="get" name="usrform">
+		<div class="typewriter">
+			<h1>Blomstermålabladet</h1>
+		</div><br>
+		<fieldset>
+			<legend>Kontaktuppgifter:</legend><br>
+			<p>Namn:</p><input name="name" placeholder="Ditt namn" required="" type="text"><br>
+			<br>
+			<p>Ålder:</p><input max="150" min="1" name="age" placeholder="Din ålder" required="" type="number"><br>
+			<br>
+		</fieldset><br>
+		<fieldset>
+			<legend>Dina besök på blomstermålabladet:</legend>
+			<p>Hur ofta besöker du blomstermålabladet?</p><input name="freq" required="" type="radio" value="varjedag"> Varje dag<br>
+			<input name="freq" type="radio" value="varannandag"> Varannan dag<br>
+			<input name="freq" type="radio" value="varjevecka"> Varje vecka<br>
+			<br>
+			<p>Vilka delar av Blomstermålabladet brukar du besöka?</p><input type="checkbox" value="nyheter"> Nyheter<br>
+			<input type="checkbox" value="utrikes"> Utrikes<br>
+			<input type="checkbox" value="inrikes"> Inrikes<br>
+			<input type="checkbox" value="sports"> Sport<br>
+			<input type="checkbox" value="skvaller"> Skvaller<br>
+			<input type="checkbox" value="väder"> Väder<br>
+			<input type="checkbox" value="övrigt"> Övrigt <input id="otherValue" name="other" type="text"><br>
+		</fieldset><br>
+		<fieldset>
+			<legend>Vinn en T-shirt!</legend>
+			<p>Vad är det bästa med Blomstermålabladet?</p>
+			<textarea cols="50" form="usrform" name="bästa" rows="4"></textarea><br>
+			<br>
+			<p>Vad är det sämsta med Blomstermålabladet?</p>
+			<textarea cols="50" form="usrform" name="sämsta" rows="4"></textarea><br>
+			<br>
+			<p>Epost:</p><input id="emailAddress" placeholder="e-post@exempel.se" type="email"><br>
+			<br>
+			<p>Storlek:</p><select name="size">
+				<option value="xs">
+					XS
+				</option>
+				<option value="small">
+					S
+				</option>
+				<option selected value="medium">
+					M
+				</option>
+				<option value="large">
+					L
+				</option>
+				<option value="xl">
+					XL
+				</option>
+			</select><br>
+			<br>
+		</fieldset><br>
+		<fieldset>
+			<legend>Skicka/Återställ</legend><br>
+			<div class="wrapper">
+				<button type="submit">Skicka</button> <button onclick="window.location.reload();" value="reset">Återställ</button>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>
